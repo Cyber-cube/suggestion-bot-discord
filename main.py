@@ -74,4 +74,4 @@ async def test(ctx):
   button2.callback = button2_callback
 
 keep_alive()
-bot.run(os.getenv("TOKEN"))
+bot.run(str(os.getenv("TOKEN")))
